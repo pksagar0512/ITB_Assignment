@@ -6,7 +6,7 @@ import { ForgetPassComponent } from "./auth-user/forget-pass/forget-pass.compone
 import { UserComponent } from "./auth-user/user/user.component";
 @Component({
   selector: 'app-root',
-  imports: [LoginComponent, ForgetPassComponent, UserComponent],
+  imports: [LoginComponent, UserComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
