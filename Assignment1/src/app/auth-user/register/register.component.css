@@ -1,0 +1,103 @@
+/* Background and Centering */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+  }
+  
+  /* Register Box */
+  .register-box {
+    width: 380px;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Title */
+  h2 {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  .input-group {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s;
+  }
+  
+  input:focus {
+    border-color: #ff416c;
+  }
+  
+  /* Terms and Conditions */
+  .terms {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .terms a {
+    color: #ff416c;
+    text-decoration: none;
+  }
+  
+  .terms a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Register Button */
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #ff416c;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #d83350;
+  }
+  
+  /* Login Text */
+  .login-text {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .login-text a {
+    color: #ff416c;
+    text-decoration: none;
+  }
+  
+  .login-text a:hover {
+    text-decoration: underline;
+  }
