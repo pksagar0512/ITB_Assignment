@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Assignment1": {
+    "DevAngular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/assignment1",
+            "outputPath": "dist/dev-angular",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -29,7 +29,12 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "server": "src/main.server.ts",
+            "outputMode": "server",
+            "ssr": {
+              "entry": "src/server.ts"
+            }
           },
           "configurations": {
             "production": {
@@ -59,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Assignment1:build:production"
+              "buildTarget": "DevAngular:build:production"
             },
             "development": {
-              "buildTarget": "Assignment1:build:development"
+              "buildTarget": "DevAngular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -94,6 +99,6 @@
     }
   },
   "cli": {
-    "analytics": "a4387d5a-3618-4f39-8e38-b18f7e6ada28"
+    "analytics": "d434d91d-f369-4b90-8dcd-ae1b199fa3fb"
   }
 }
