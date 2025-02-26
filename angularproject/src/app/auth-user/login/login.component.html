@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+</head>
+<body>
+    <section>
+        <h1>Sign In</h1>
+        <form action="/authenticate" method="POST">
+            <div>
+                <label for="user">Username</label>
+                <input type="text" id="user" name="user" required>
+            </div>
+            <div>
+                <label for="pass">Password</label>
+                <input type="password" id="pass" name="pass" required>
+            </div>
+            <button type="submit">Sign In</button>
+        </form>
+        <p>New here? <a href="#">Create an Account</a></p>
+    </section>
+</body>
+</html>
